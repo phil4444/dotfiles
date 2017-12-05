@@ -1,3 +1,9 @@
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+vnoremap <leader>p "_dP
+nnoremap <leader>x "_x
+vnoremap <leader>x "_x
+
 no <down> <Nop>
 no <left> <Nop>
 no <right> <Nop>
@@ -28,7 +34,7 @@ set bs=2     " make backspace behave like normal again
 " Rebind <Leader> key
 " I like to have it here becuase it is easier to reach than the default and
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
-"" let mapleader = ","
+let mapleader = ","
 
 
 " Bind nohl
